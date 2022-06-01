@@ -5,6 +5,7 @@ Adds a token 'City, State Abbreviation' which adds a contact token that displays
 Table of Examples:
 
 | Primary City    | Primary State   | Token display |
+|-----------------|-----------------|---------------|
 | Phoenix         | Arizona         | "Phoenix, AZ" |
 | Phoenix         | NULL            | "Phoenix"     |
 | NULL            | Arizona         | "AZ"          |
