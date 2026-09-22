@@ -19,7 +19,7 @@ function citystatetoken_civicrm_tokens(&$tokens) {
  *
  * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_tokenValues/
  */
-function citystatetoken_civicrm_tokenValues(&$values, $cids, $job = null, $tokens = array(), $context = null) {
+function citystatetoken_civicrm_tokenValues(&$values, $cids, $job = null, $tokens = [], $context = null) {
   if (!empty($tokens['citystate'])) {
     foreach ($values as $contactId => &$tokenValues) {
       $tokenValues['citystate.citystate'] = "";
